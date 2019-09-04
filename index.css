@@ -1,0 +1,110 @@
+body{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.card{
+    height: 440px;
+    width: 340px;
+    box-shadow: 0px 1px 3px 1px ;
+    border-radius: 5px;
+    padding: 18px;
+}
+.card__image{
+    height: 195px;
+    width: 376px;
+    background-image: url(https://drscdn.500px.org/photo/180949663/q%3D80_h%3D450/v2?sig=d79166654349ed4b009b96021682e11d446f980262c055b1f387fb7092ce01bd);
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    box-shadow: 0px, 1px,5px,1px;
+    right: 18px;
+}
+.card__header{
+    width: 50px;
+    height: 50px;
+}
+.card__label{
+    width:25px;
+    height: 25px;
+    background-color: red;
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    
+}
+.card__title{
+    margin-left:22px;
+    font-size: 12px;
+}
+.card__subtitle{
+    margin-left: 53px;
+    color:grey;
+}
+.icon__dot{
+    color: darkgray;
+    float: right;
+    
+}
+.icon__dot:hover{
+    background:grey;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    display: inline;
+}
+.icon__dot:active{
+    background-color: black;
+}
+.card__description{
+    color:grey;
+    padding:10px;
+    margin-top:20px;
+    font-size: 14px;
+}
+.icon__heart{
+    float:left;
+    color:darkgrey;
+}
+.icon__heart:hover{
+    background:grey;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    display: inline;
+}
+.icon__heart:active{
+    background-color: black;
+}
+.icon__share{
+    float:left;
+    color: darkgrey;
+}
+.icon__share:hover{
+    background:grey;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    display: inline;
+}
+.icon__share:active{
+    background-color: black;
+}
+.icon__down{
+    float:right;
+    color:grey;
+}
+.icon__down:hover{
+    background:grey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: inline;
+}
+.icon__down:active{
+    background-color: black;
+}
